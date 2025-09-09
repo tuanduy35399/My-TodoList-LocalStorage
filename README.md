@@ -28,6 +28,8 @@ Xin chào 👋 Đây là ứng dụng Todo List cơ bản được xây dựng b
 - 📧 EmailJS gochoctapcuatuanduy@gmail.com
 
 ---
+## Demo: https://tuanduy35399.github.io/My-TodoList-LocalStorage/
+---
 
 ## 📦 Cài đặt & Chạy dự án
 
