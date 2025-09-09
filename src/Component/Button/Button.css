@@ -1,0 +1,30 @@
+.button{
+    min-width: 40px;
+    height: 40px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color:blueviolet;
+box-shadow: 4px 4px 9px -1px rgba(19,127,127,0.75);
+-webkit-box-shadow: 4px 4px 9px -1px rgba(19,127,127,0.75);
+-moz-box-shadow: 4px 4px 9px -1px rgba(19,127,127,0.75);
+background-color: rgba(219, 231, 242, 0.556);
+    transition: all 0.5s ease;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    background-color: blueviolet;
+    color: white;
+}
+
+.laybutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button.edit,.button.save{
+    font-size: 20px;
+}

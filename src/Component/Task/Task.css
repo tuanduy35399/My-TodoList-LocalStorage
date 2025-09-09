@@ -1,0 +1,30 @@
+.layout_task,.edit-area{
+    font-size: 14px;
+    min-height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    resize: vertical;
+    background-color: rgba(219, 231, 242, 0.327);
+    display: flex;
+    align-items: center;
+
+      /* thêm để quản lý text */
+    width: 90%;  /* hoặc width: 100%; nếu muốn full */
+    padding: 5px 10px;  
+    box-sizing: border-box;
+}
+
+.task_text {
+  word-wrap: break-word;  /* tự động xuống dòng nếu chữ dài */
+  white-space: pre-wrap;  /* giữ khoảng trắng, vẫn wrap */
+  overflow-wrap: anywhere; /* hiện đại hơn, ngắt chữ dài */
+}
+.tasks{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    margin: 10px;
+    width: 98%;
+}
+
