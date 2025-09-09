@@ -1,12 +1,53 @@
-# React + Vite
+# ✅ Todo List App (ReactJS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Xin chào 👋 Đây là ứng dụng Todo List cơ bản được xây dựng bằng ReactJS.
+Ứng dụng giúp mình quản lý công việc hằng ngày: thêm, sửa, xóa và lưu trữ công việc ngay trên trình duyệt bằng LocalStorage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tính năng
 
-## Expanding the ESLint configuration
+➕ Thêm công việc mới
+📝 Chỉnh sửa trực tiếp công việc ngay trên danh sách
+❌ Xóa công việc
+💾 Lưu trữ công việc với LocalStorage (không mất khi reload trang)
+📱 Responsive Design (hiển thị tốt trên desktop và mobile)
+🎨 Giao diện đơn giản, hiện đại với hiệu ứng hover
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Demo giao diện
+
+![Ảnh demo](./public/demo.png)
+
+---
+
+## 🛠️ Công nghệ sử dụng
+
+- ⚛️ [ReactJS](https://react.dev/) – Framework chính
+- 🎨 HTML/CSS/JavaScript
+- 📧 EmailJS gochoctapcuatuanduy@gmail.com
+
+---
+
+## 📦 Cài đặt & Chạy dự án
+
+### Clone project về máy:
+
+```bash
+git clone https://github.com/tuanduy35399/My-TodoList-LocalStorage.git
+```
+
+### Truy cập vào thư mục chứa dự án
+```bash
+cd My-TodoList-LocalStorage
+```
+
+### Tải các module cần thiết
+```bash
+npm i
+```
+
+### Khởi chạy dự án
+```bash
+npm run dev
+```
