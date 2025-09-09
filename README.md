@@ -7,12 +7,12 @@ Xin chào 👋 Đây là ứng dụng Todo List cơ bản được xây dựng b
 
 ## 🚀 Tính năng
 
-➕ Thêm công việc mới
-📝 Chỉnh sửa trực tiếp công việc ngay trên danh sách
-❌ Xóa công việc
-💾 Lưu trữ công việc với LocalStorage (không mất khi reload trang)
-📱 Responsive Design (hiển thị tốt trên desktop và mobile)
-🎨 Giao diện đơn giản, hiện đại với hiệu ứng hover
+- ➕ Thêm công việc mới
+- 📝 Chỉnh sửa trực tiếp công việc ngay trên danh sách
+- ❌ Xóa công việc
+- 💾 Lưu trữ công việc với LocalStorage (không mất khi reload trang)
+- 📱 Responsive Design (hiển thị tốt trên desktop và mobile)
+- 🎨 Giao diện đơn giản, hiện đại với hiệu ứng hover
 ---
 
 ## 🖼️ Demo giao diện
