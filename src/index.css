@@ -6,10 +6,13 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e0c3fc;
+    /* background: #e0c3fc;
     background: linear-gradient(90deg,#e0c3fc 0%, #8ec5fc 80%);
     background: -webkit-linear-gradient(90deg,#e0c3fc 0%, #8ec5fc 80%);
-    background: -moz-linear-gradient(90deg,#e0c3fc 0%, #8ec5fc 80%);
+    background: -moz-linear-gradient(90deg,#e0c3fc 0%, #8ec5fc 80%); */
+    background-image: url("./assets/background.jpg") ;
+    background-repeat: none;
+    background-size: cover;
     color:#3a0ca3;
     font-family: Arial;
 }

@@ -5,7 +5,7 @@
     border: none;
     outline: none;
     resize: vertical;
-    background-color: rgba(219, 231, 242, 0.327);
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
 
@@ -13,6 +13,9 @@
     width: 90%;  /* hoặc width: 100%; nếu muốn full */
     padding: 5px 10px;  
     box-sizing: border-box;
+    box-shadow: -1px 26px 19px -28px rgba(19,127,127,0.75);
+-webkit-box-shadow: -1px 26px 19px -28px rgba(19,127,127,0.75);
+-moz-box-shadow: -1px 26px 19px -28px rgba(19,127,127,0.75);
 }
 
 .task_text {

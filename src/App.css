@@ -43,7 +43,7 @@ textarea{
     resize: vertical;
     background-color: rgba(219, 231, 242, 0.327);
     /* margin: 10px 10px 0;  */
-    transition: border 2s ease, transform 0.3s ease;
+    transition: border 2s ease, transform 0.3s ease, background-color 0.3s ease;
 }
 textarea:hover{
     /* border: 1px solid rgba(4, 58, 100, 0.722); */
@@ -54,10 +54,14 @@ textarea::placeholder{
     margin-top: 10px;
     font-weight:bold;
 }
+textarea:focus{
+    background-color: rgb(236, 243, 250);
+}
 .Todo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     gap: 10px;
+    
 }
